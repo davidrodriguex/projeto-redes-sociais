@@ -1,0 +1,28 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100vh;
+    width: 100vw;
+    background-color: blue;
+}
+body{
+    background: darkgray url(../pacote-d013/imagens/fundo-madeira.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main{
+    position: relative;
+    height: 100vh;
+}
+#phone{
+    width: 311px;
+    height: 628px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(../pacote-d013/imagens/frame-iphone.png) center center no-repeat;
+}
